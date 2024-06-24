@@ -152,7 +152,7 @@ Then
 1.  $G \cong A_1 \times A_2 \times \cdots \times A_k$, where
     $|A_i| = p_i^{\alpha_i}$
 
-2.  for each $A \in \{ A_1, A_2, \ldots , A_k \}$ with $|A| = p^\alpha$,
+2.  for each $A \in \{ A_1, A_2, \ldots , A_k \}$ with $|A| = p^\alpha$ ,
 
     $$A \cong Z_{p^{\beta_1}} \times Z_{p^{\beta_2}} \times \cdots \times Z_{p^{\beta_t}}$$
     
@@ -287,7 +287,7 @@ following multiplication on $G$:
 
 $$(h_1, k_1) (h_2, k_2) = (h_1 k_1 \cdot h_2, k_1 k_2).$$
 
-1.  This multiplication makes $G$ into a group of order $|G| = |H||K|$.
+1.  This multiplication makes $G$ into a group of order $ |G| = |H||K| $ .
 
 2.  The sets $\{(h,1) \mid h \in H \}$ and $\{(1,k) \mid k \in K\}$ are
     subgroups of $G$ and the maps $h \mapsto (h,1)$ for $h \in H$ and
