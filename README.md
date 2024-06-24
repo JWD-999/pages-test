@@ -5,6 +5,8 @@ messing around to figure out github pages
 
 [This should be a link](main.pdf)
 
+[df abirdge](https://github.com/JWD-999/Textbooks-Abridged/blob/main/Abstract%20Algebra%203rd%20Ed.%20by%20Dummit%20and%20Foote/main.pdf)
+
 
 ## Pandoc latex to markdown test
 
