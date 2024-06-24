@@ -22,9 +22,10 @@ messing around to figure out github pages
     $\star_1,\star_2, \ldots , \star_n$, respectively, is the set of
     $n$-tuples $(g_1,g_2, \ldots , g_n)$ where $g_i\in G_i$ with the
     operation defined componentwise:
+    
     $$(g_1,g_2, \ldots ,g_n)\star (h_1,h_2, \ldots ,h_n) = (g_1 \star_1 h_1, g_2 \star_2 h_2. \ldots g_n\star_n h_n).$$
 
-2.  Similarly, the *direct product* $G_1 \times G_2 \times \cdots$ of
+3.  Similarly, the *direct product* $G_1 \times G_2 \times \cdots$ of
     the groups $G_1, G_2, \ldots$ with operations
     $\star_1,\star_2, \ldots$, respectively, is the set of sequences
     $(g_1,g_2, \ldots)$ where $g_i\in G_i$ with the operation defined
@@ -49,20 +50,30 @@ $G = G_1 \times G_2 \times \cdots \times G_n$ be their direct product.
     identity of $G_j$ in the $j^{\text{th}}$ position for all $j \neq i$
     and arbitrary elements of $G_i$ in position $i$ is a subgroup of $G$
     isomorphic $G_i$:
+    
     $$G_i \cong \{(1,1,\ldots, 1, g_i,1,\ldots, 1) \mid g_i\in G_i\},$$
+    
     (here $g_i$ appears in the $i^{\text{th}}$ position). If we identity
     $G_i$ with this subgroup, then $G_i \trianglelefteq G$ and
+    
     $$G/G_i \cong G_1\times \cdots \times G_{i-1} \times G_{i+1} \times \cdots \times G_n.$$
 
-2.  For each fixed $i$ define $\pi_i \colon G \to G_i$ by
-    $$\pi_i((g_1,g_2,\ldots,g_n)) = g_i.$$ Then $\pi_i$ is a surjective
-    homomorphism with $$\begin{aligned}
+3.  For each fixed $i$ define $\pi_i \colon G \to G_i$ by
+4.  
+    $$\pi_i((g_1,g_2,\ldots,g_n)) = g_i.$$
+
+    Then $\pi_i$ is a surjective
+    homomorphism with
+
+    $$\begin{aligned}
        \text{ker}\pi_i &= \{(g_1,g_2, \ldots , g_{i-1}, 1, g_{i+1}) \mid g_j \in G_j \text{ for all } j\neq i\} \\
        &\cong G_1\times \cdots \times G_{i-1} \times G_{i+1} \times \cdots \times G_n
       
-    \end{aligned}$$ (here 1 appears in position $i$).
+    \end{aligned}$$
 
-3.  Under the identifications in part 1, if $x \in G_i$ and $y\in G_j$
+    (here 1 appears in position $i$).
+
+6.  Under the identifications in part 1, if $x \in G_i$ and $y\in G_j$
     for some $i \neq j$, then $xy = yx$.
  
 
@@ -86,6 +97,7 @@ $G = G_1 \times G_2 \times \cdots \times G_n$ be their direct product.
 Groups) Let $G$ be a finitely generated abelian group. Then
 
 1.  $$G \cong \mathbb{Z}^r \times Z_{n_1} \times Z_{n_2} \times \cdots \times Z_{n_s},$$
+   
     for some $r,n_1,n_2, \ldots , n_s$ satisfying the following
     conditions:
 
@@ -93,7 +105,7 @@ Groups) Let $G$ be a finitely generated abelian group. Then
 
     2.  $n_{i+1} \mid n_i$ for all $1 \leq i \leq s-1$
 
-2.  the expression in 1. is unique: if
+3.  the expression in 1. is unique: if
     $G \cong \mathbb{Z}^t \times Z_{m_1} \times Z_{m_2} \times \cdots \times Z_{m_u}$,
     where $t$ and $m_1, m_2, \ldots , m_u$ satisfy (a) and (b), then
     $t = r$ and $m_i = n_i$ for all $i$.
@@ -130,7 +142,10 @@ order $n$, $Z_n$.
    
 **Theorem 5**. Let $G$ be an abelian group of order $n > 1$ and let the
 unique factorization of $n$ into distinct prime powers be
-$$n = p_1^{\alpha_1} p_2^{\alpha_2} \cdots p_k^{\alpha_k}.$$ Then
+
+$$n = p_1^{\alpha_1} p_2^{\alpha_2} \cdots p_k^{\alpha_k}.$$
+
+Then
 
 1.  $G \cong A_1 \times A_2 \times \cdots \times A_k$, where
     $|A_i| = p_i^{\alpha_i}$
