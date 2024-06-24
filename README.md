@@ -1,11 +1,14 @@
 # pages-test 
 messing around to figure out github pages
 
-## Link to pdf test
+## Link test
 
-[This should be a link](main.pdf)
+[pdf version of this page (plus a table)](main.pdf)
 
 [df abirdge](https://github.com/JWD-999/Textbooks-Abridged/blob/main/Abstract%20Algebra%203rd%20Ed.%20by%20Dummit%20and%20Foote/main.pdf)
+
+[one more link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
 
 
 ## Pandoc latex to markdown test
