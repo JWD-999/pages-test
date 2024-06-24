@@ -29,7 +29,9 @@ messing around to figure out github pages
     $\star_1,\star_2, \ldots$, respectively, is the set of sequences
     $(g_1,g_2, \ldots)$ where $g_i\in G_i$ with the operation defined
     componentwise:
+    
     $$(g_1,g_2, \ldots)\star (h_1,h_2, \ldots) = (g_1 \star_1 h_1, g_2 \star_2 h_2. \ldots).$$
+    
 :::
 
 ::: prop
