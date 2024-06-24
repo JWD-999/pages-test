@@ -153,7 +153,9 @@ Then
     $|A_i| = p_i^{\alpha_i}$
 
 2.  for each $A \in \{ A_1, A_2, \ldots , A_k \}$ with $|A| = p^\alpha$,
+
     $$A \cong Z_{p^{\beta_1}} \times Z_{p^{\beta_2}} \times \cdots \times Z_{p^{\beta_t}}$$
+    
     with $\beta_1 \geq \beta_2 \geq \ldots \geq \beta_t \geq 1$ and
     $\beta_1 + \beta_2 + \ldots + \beta_t = \alpha$ (where $t$ and
     $\beta_1, \beta_2, \ldots , \beta_t$ depend on $i$)
@@ -192,7 +194,10 @@ $p^{\beta_1}, p^{\beta_2}, \ldots , p^{\beta_t}$ such that
 
   
 **Note 3**. The group $F_{20}$ of order 20 has generators and relations
-$$\langle x,y \mid x^4 = y^5 = 1, xyx^{-1} = y^2 \rangle.$$This group is called the *Frobenius group* of order 20 and can be viewed as the
+
+$$\langle x,y \mid x^4 = y^5 = 1, xyx^{-1} = y^2 \rangle.$$
+
+This group is called the *Frobenius group* of order 20 and can be viewed as the
 subgroup $F_{20} = \langle (2354), (12345) \rangle$ of $S_5$.
  
 
@@ -252,11 +257,15 @@ Then $HK \cong H \times K$.
 
   
 **Note 4**. The above conditions are simply the necessary conditions to
-ensure that the map $$\begin{aligned}
+ensure that the map 
+
+$$\begin{aligned}
   \varphi\colon & HK \to H \times K \\
   & hk \mapsto (h,k)
  
-\end{aligned}$$ is well defined and an isomorphism.
+\end{aligned}$$ 
+
+is well defined and an isomorphism.
  
 
   
@@ -275,6 +284,7 @@ homomorphism from $K$ into Aut$(H)$. Let $\cdot$ denote the (left)
 action of $K$ on $H$ determined by $\varphi$. Let $G$ be the set of
 order pairs $(h,k)$ with $h \in H$ and $k \in K$ and define the
 following multiplication on $G$:
+
 $$(h_1, k_1) (h_2, k_2) = (h_1 k_1 \cdot h_2, k_1 k_2).$$
 
 1.  This multiplication makes $G$ into a group of order $|G| = |H||K|$.
@@ -283,6 +293,7 @@ $$(h_1, k_1) (h_2, k_2) = (h_1 k_1 \cdot h_2, k_1 k_2).$$
     subgroups of $G$ and the maps $h \mapsto (h,1)$ for $h \in H$ and
     $k \mapsto (1,k)$ for $k \in K$ are isomorphisms of these subgroups
     with the groups $H$ and $K$ respectively;
+    
     $$H \cong  \{(h,1) \mid h \in H \} \quad \text{and} \quad K \cong \{(1,k) \mid k \in K\}.$$
 
 Identifying $H$ and $K$ with their isomorphic copies in $G$ described in
