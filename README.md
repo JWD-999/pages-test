@@ -35,14 +35,13 @@ messing around to figure out github pages
     
  
 
-  prop
 **Proposition 1**. If $G_1, \ldots, G_n$ are groups, their direct
 product is a group of order\
 $|G_1||G_2|\cdots |G_n|$ (if any $G_i$ is infinite, so is the direct
 product).
  
 
-  prop
+
 **Proposition 2**. Let $G_1, G_2, \ldots , G_n$ be group and let
 $G = G_1 \times G_2 \times \cdots \times G_n$ be their direct product.
 
@@ -180,53 +179,17 @@ $p^{\beta_1}, p^{\beta_2}, \ldots , p^{\beta_t}$ such that
 3.  $\beta_1 + \beta_2 + \ldots + \beta_t = \beta$
  
 
-  prop
 **Proposition 6**. Let $m,n \in \mathbb{Z}^+$.
 
 1.  $Z_m \times Z_n \cong Z_{mn}$ if and only if $(m,n) = 1$.
 
 2.  If $n = p_1^{\alpha_1} p_2^{\alpha_2} \cdots p_k^{\alpha_k}$ then
     $Z_n \cong Z_{p_1^{\alpha_1}} \times Z_{p_2^{\alpha_2}} \times \cdots \times Z_{p_k^{\alpha_k}}$.
- 
 
-## Table of Groups of Small Order
-
- : center
-  tabular
-\|c\|C4cm\|C4cm\|C4cm\| Order & No. of Isomorphism Types & Abelian
-Groups & Non-abelian Groups\
-& 1 & $Z_1$ & none\
-& 1 & $Z_2$ & none\
-& 1 & $Z_3$ & none\
-& 2 & $Z_4$, $Z_2 \times Z_2$ & none\
-& 1 & $Z_5$ & none\
-& 2 & $Z_6$ & $S_3$\
-& 1 & $Z_7$ & none\
-& 5 & $Z_8$, $Z_4 \times Z_2$, $Z_2 \times Z_2 \times Z_2$ & $D_8$,
-$Q_8$\
-& 2 & $Z_9$, $Z_3 \times Z_3$ & none\
-& 2 & $Z_{10}$ & $D_{10}$\
-& 1 & $Z_{11}$ & none\
-& 5 & $Z_{12}$, $Z_6 \times Z_2$ & $A_4$, $D_{12}$, $Z_3 \rtimes Z_4$\
-& 1 & $Z_{13}$ & none\
-& 2 & $Z_{14}$ & $D_{14}$\
-& 1 & $Z_{15}$ & none\
-& 14 & $Z_{16}$, $Z_8 \times Z_2$, $Z_4 \times Z_4$,
-$Z_4 \times Z_2 \times Z_2$, $Z_2 \times Z_2 \times Z_2 \times Z_2$ &
-not listed\
-& 1 & $Z_{17}$ & none\
-& 5 & $Z_{18}$, $Z_6 \times Z_3$ & $D_{18}$, $S_3 \times Z_3$,
-$(Z_3 \times Z_3) \rtimes Z_2$\
-& 1 & $Z_{19}$ & none\
-& 5 & $Z_{20}$, $Z_{10} \times Z_2$ & $D_{20}$, $Z_5 \rtimes Z_4$,
-$F_{20}$\
- 
- :
 
   
 **Note 3**. The group $F_{20}$ of order 20 has generators and relations
-$$\langle x,y \mid x^4 = y^5 = 1, xyx^{-1} = y^2 \rangle.$$ This group
-is called the *Frobenius group* of order 20 and can be viewed as the
+$$\langle x,y \mid x^4 = y^5 = 1, xyx^{-1} = y^2 \rangle.$$This group is called the *Frobenius group* of order 20 and can be viewed as the
 subgroup $F_{20} = \langle (2354), (12345) \rangle$ of $S_5$.
  
 
@@ -247,7 +210,6 @@ nonempty subsets of $G$.
     *commutator subgroup* of $G$.
  
 
-  prop
 **Proposition 7**. Let $G$ be a group, let $x,y \in G$ and let
 $H \leq G$. Then
 
@@ -264,20 +226,9 @@ $H \leq G$. Then
     abelian.
 
 5.  If $\varphi\colon G \to A$ is any homomorphism of $G$ into an
-    abelian group $A$, then $\varphi$ factors through $G'$ i.e.,
-    $G' \leq \text{ker}\varphi$ and the following diagram commutes:
+    abelian group $A$, then $\varphi$ factors through $G'$.
 
-    $$\begin{tikzcd}
-        G && {G/G'} \\
-        \\
-        && A
-        \arrow[from=1-1, to=1-3]
-        \arrow["\varphi"', from=1-1, to=3-3]
-        \arrow[from=1-3, to=3-3]
-    \end{tikzcd}$$
- 
 
-  prop
 **Proposition 8**. Let $H$ and $K$ be subgroups of the group $G$. The
 number of distinct ways of writing each element of the set $HK$ in the
 form $hk$, for some $h \in H$ and $k \in K$ is $|H \cap K|$. In
@@ -350,7 +301,6 @@ $\varphi$ and will be denoted by $H \rtimes_\varphi K$ (when there is no
 danger of confusion we shall simply write $H \rtimes K$).
  
 
-  prop
 **Proposition 11**. Let $H$ and $K$ be groups and let
 $\varphi\colon K \to$Aut$(H)$ be a homomorphism. Then the following are
 equivalent:
