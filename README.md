@@ -152,7 +152,7 @@ Then
 1.  $G \cong A_1 \times A_2 \times \cdots \times A_k$, where
     $|A_i| = p_i^{\alpha_i}$
 
-2.  for each $A \in \{ A_1, A_2, \ldots , A_k \}$ with $|A| = p^\alpha$ ,
+2.  for each $A \in \{ A_1, A_2, \ldots , A_k \}$ with $|A| = p^{\alpha}$ ,
 
     $$A \cong Z_{p^{\beta_1}} \times Z_{p^{\beta_2}} \times \cdots \times Z_{p^{\beta_t}}$$
     
