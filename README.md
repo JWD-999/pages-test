@@ -287,7 +287,7 @@ following multiplication on $G$:
 
 $$(h_1, k_1) (h_2, k_2) = (h_1 k_1 \cdot h_2, k_1 k_2).$$
 
-1.  This multiplication makes $G$ into a group of order $ \mid G \mid = \mid H \mid \mid K \mid $ .
+1.  This multiplication makes $G$ into a group of order $ \vert G \vert = \vert H \vert \vert K \vert $ .
 
 2.  The sets $\{(h,1) \mid h \in H \}$ and $\{(1,k) \mid k \in K\}$ are
     subgroups of $G$ and the maps $h \mapsto (h,1)$ for $h \in H$ and
