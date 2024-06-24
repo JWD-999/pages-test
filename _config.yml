@@ -14,5 +14,3 @@ include:
   - PULL_REQUEST_TEMPLATE.md
 name: ""
 title: null
-
-theme: jekyll-theme-tactile
