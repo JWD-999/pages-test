@@ -1,6 +1,11 @@
 # pages-test
 messing around to figure out github pages
 
+## Link to pdf test
+
+[This should be a link](github.com/JWD-999/pages-test/main.pdf}
+
+
 ## Pandoc latex to markdown test
 
 # Direct and Semidirect Products and Abelian Groups
