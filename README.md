@@ -5,7 +5,7 @@ messing around to figure out github pages
 
 [pdf version of this page (plus a table)](main.pdf)
 
-[df abirdge](https://github.com/JWD-999/Textbooks-Abridged/blob/main/Abstract%20Algebra%203rd%20Ed.%20by%20Dummit%20and%20Foote/main.pdf)
+[df abridged](https://github.com/JWD-999/Textbooks-Abridged/blob/main/Abstract%20Algebra%203rd%20Ed.%20by%20Dummit%20and%20Foote/main.pdf)
 
 [one more link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
