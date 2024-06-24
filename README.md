@@ -20,14 +20,14 @@ messing around to figure out github pages
     $\star_1,\star_2, \ldots , \star_n$, respectively, is the set of
     $n$-tuples $(g_1,g_2, \ldots , g_n)$ where $g_i\in G_i$ with the
     operation defined componentwise:
-    $$(g_1,g_2, \ldots ,g_n)\star (h_1,h_2, \ldots ,h_n) = (g_1 \star_1 h_1, g_2 \star_2 h_2. \ldots g_n\star_n h_n).$$
+    \[(g_1,g_2, \ldots ,g_n)\star (h_1,h_2, \ldots ,h_n) = (g_1 \star_1 h_1, g_2 \star_2 h_2. \ldots g_n\star_n h_n).\]
 
 2.  Similarly, the *direct product* $G_1 \times G_2 \times \cdots$ of
     the groups $G_1, G_2, \ldots$ with operations
     $\star_1,\star_2, \ldots$, respectively, is the set of sequences
     $(g_1,g_2, \ldots)$ where $g_i\in G_i$ with the operation defined
     componentwise:
-    $$(g_1,g_2, \ldots)\star (h_1,h_2, \ldots) = (g_1 \star_1 h_1, g_2 \star_2 h_2. \ldots).$$
+    \[(g_1,g_2, \ldots)\star (h_1,h_2, \ldots) = (g_1 \star_1 h_1, g_2 \star_2 h_2. \ldots).\]
 :::
 
 ::: prop
